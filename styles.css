@@ -125,8 +125,26 @@ main {
     gap:12px;
     margin-bottom: 15px;
 }
+.attribution{
+    background-color: var(--clr-magenta);
 
-
+}
+.attribution p {
+    font-size: 1rem;
+}
+.attribution p:hover,
+.attribution p:focus {
+    color: black;
+}
+#name{
+    color: var(--clr-violet);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+#name:hover,
+#name:focus {
+    color: white;
+}
 @media screen and (min-width:760px){
     body{
         max-height: 800px;
@@ -189,7 +207,7 @@ main {
     .social-icons i {
         font-size: 1rem;
     }
-    
+
 }
 
 @media screen and (max-width:1060px){
@@ -211,20 +229,3 @@ main {
     }
 }
 
-.attribution {
-    background-color: var(--clr-magenta);
-    margin-top: 50px;
-}
-.attribution p {
-    font-size: 1.4rem;
-}
-#name {
-    color: black;
-    font-size: 2rem;
-    text-decoration: none;
-
-}
-#name:hover,
-#name:focus {
-    color: #fff;
-}
