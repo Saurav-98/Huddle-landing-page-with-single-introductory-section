@@ -131,6 +131,7 @@ main {
 }
 .attribution p {
     font-size: 1rem;
+    padding: 10px;
 }
 .attribution p:hover,
 .attribution p:focus {
